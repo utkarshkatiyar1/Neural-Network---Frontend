@@ -8,19 +8,19 @@ const Plans = () => {
   const plans = [
     {
       name: "Basic Plan",
-      price: { yearly: "$100/year", monthly: "$10/month" },
+      price: { yearly: "₹100/year", monthly: "₹10/month" },
       features: ["Life Cover", "Accident Cover"],
       icon: <FaShieldAlt className="text-blue-400 text-4xl" />,
     },
     {
       name: "Premium Plan",
-      price: { yearly: "$250/year", monthly: "$25/month" },
+      price: { yearly: "₹250/year", monthly: "₹25/month" },
       features: ["Life Cover", "Accident Cover", "Critical Illness"],
       icon: <FaStar className="text-yellow-400 text-4xl" />,
     },
     {
       name: "Gold Plan",
-      price: { yearly: "$400/year", monthly: "$40/month" },
+      price: { yearly: "₹400/year", monthly: "₹40/month" },
       features: ["Life Cover", "Accident Cover", "Investment Benefits"],
       icon: <FaMedal className="text-red-400 text-4xl" />,
     },
@@ -36,7 +36,7 @@ const Plans = () => {
   return (
     <div className="bg-gradient-to-r from-[#C10046] to-[#2E176F] min-h-screen text-white">
       <Navbar />
-      <div className="p-8 mt-16 text-center">
+      <div className="p-8 mt-15 text-center">
         <h2 className="text-4xl font-bold mb-6">Compare Our Insurance Plans</h2>
 
         {/* Pricing Cards */}
